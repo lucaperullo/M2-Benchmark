@@ -55,6 +55,16 @@ i {
   height: 100%;
   width: 100%;
 }
+.img-featured-section {
+  transition: 0.25s;
+}
+.text-bold {
+  font-weight: 800;
+  font-size: 17px;
+}
+.img-featured-section:hover {
+  opacity: 0.85;
+}
 @media (max-width: 990px) {
   .navbar {
     padding: 0;
