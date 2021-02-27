@@ -59,9 +59,12 @@ i {
   transition: 0.3s linear;
 }
 .glide__slide--active {
+  z-index: 3;
   opacity: 1;
   filter: none;
   transform: scale(1);
+}
+@media (max-width: 320px) {
 }
 /* end of carousel */
 .games {
