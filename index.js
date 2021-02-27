@@ -5,6 +5,9 @@ new Glide(".images", {
   gap: 40,
   breakpoints: {
     800: {
+      pewView: 3,
+    },
+    400: {
       pewView: 2,
     },
   },

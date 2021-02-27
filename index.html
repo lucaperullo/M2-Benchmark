@@ -4,6 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="https://img.icons8.com/ios/452/gog-com.png" />
     <link
       rel="stylesheet"
@@ -59,7 +64,7 @@
               <a class="nav-link" href="#">Sign in</a>
             </li>
           </ul>
-          <ul class="navbar-nav me-auto">
+          <ul id="last-buttons" class="navbar-nav me-auto">
             <li class="nav-item">
               <i class="nav-link fas fa-shopping-cart"> °</i>
             </li>
@@ -83,45 +88,56 @@
           <ul class="glide__slides">
             <li class="glide__slide">
               <img
-                src="https://images6.alphacoders.com/720/720116.jpg"
+                style="width: 100%"
+                src="https://images-1.gog-statics.com/e06fc432a6545d850578e79c7de69feb59558662a1d2897ccd6d9f49835273f4_bs_background_1275.jpg"
                 alt=""
               />
             </li>
             <li class="glide__slide">
               <img
+                style="width: 100%"
                 src="https://www.geekit.it/wp-content/uploads/Broken-Lines-Art-DaD.jpg"
                 alt=""
               />
             </li>
             <li class="glide__slide">
-              <img src="https://wallpapercave.com/wp/wp3282908.jpg" alt="" />
+              <img
+                style="width: 100%"
+                src="https://wallpapercave.com/wp/wp3282908.jpg"
+                alt=""
+              />
             </li>
             <li class="glide__slide">
               <img
+                style="width: 100%"
                 src="https://pbs.twimg.com/media/EvFEHUKXUAYEU7j.jpg"
                 alt=""
               />
             </li>
             <li class="glide__slide">
               <img
+                style="width: 100%"
                 src="https://sm.ign.com/ign_it/screenshot/default/d7p-yldx4aavjwo_kkrb.jpg"
                 alt=""
               />
             </li>
             <li class="glide__slide">
               <img
+                style="width: 100%"
                 src="https://www.staynerd.com/wp-content/uploads/diablo_1920x1080.jpg"
                 alt=""
               />
             </li>
             <li class="glide__slide">
               <img
+                style="width: 100%"
                 src="http://avante.biz/wp-content/uploads/Champions-wallpapers-league-of-legends/Champions-wallpapers-league-of-legends2.jpg"
                 alt=""
               />
             </li>
             <li class="glide__slide">
               <img
+                style="width: 100%"
                 src="https://www.pdvg.it/wp-content/uploads/2019/06/TheOuterWorlds_KeyArt.jpg"
                 alt=""
               />
@@ -133,53 +149,63 @@
     </div>
     <!-- CAROUSEL END -->
     <div class="container games">
-      <div class="card" style="width: 18rem; margin-left: 10px">
-        <img
-          height="150px"
-          src="https://images-1.gog-statics.com/97dedee2d5af5e2c1a620bd6ca5cb78dc44c21e15954467dd98b5b6463fcdf74_product_tile_304_2x.webp"
-          class="card-img-top"
-          alt="https://images-1.gog-statics.com/97dedee2d5af5e2c1a620bd6ca5cb78dc44c21e15954467dd98b5b6463fcdf74_product_tile_304_2x.webp"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Armored Brigade Nation Pack:<br />Czechoslovakia - Netherlands
-          </p>
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="margin-left: 10px">
+            <img
+              id="card-2"
+              height="150px"
+              src="https://images-3.gog-statics.com/4cadd3c498f3793ca319e8d6e822faa3cf7297a827d3849564ff3202864ab674_product_tile_256_2x.jpg"
+              class="card-img-top"
+              alt="https://images-2.gog-statics.com/451610cb55afbb790628aeae5459c4e21466cf9a1246c5921b0004cbd4f06cbd_product_tile_304.webp"
+            />
+            <div class="card-body">
+              <p class="card-text">Hellblade: Senua's Sacrifice</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem; margin-left: 10px">
-        <img
-          height="150px"
-          src="https://images-2.gog-statics.com/451610cb55afbb790628aeae5459c4e21466cf9a1246c5921b0004cbd4f06cbd_product_tile_304.webp"
-          class="card-img-top"
-          alt="https://images-2.gog-statics.com/451610cb55afbb790628aeae5459c4e21466cf9a1246c5921b0004cbd4f06cbd_product_tile_304.webp"
-        />
-        <div class="card-body">
-          <p class="card-text">Fantasy General II: Evolution</p>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="margin-left: 10px">
+            <img
+              id="card-1"
+              height="150px"
+              src="https://images-1.gog-statics.com/b063c46a7e35ba1925653cefcea5014728f1cc0c54880b2f5978eff8f488e9d7_product_tile_256.jpg"
+              class="card-img-top"
+              alt="https://images-1.gog-statics.com/b063c46a7e35ba1925653cefcea5014728f1cc0c54880b2f5978eff8f488e9d7_product_tile_256.jpg"
+            />
+
+            <div class="card-body">
+              <p class="card-text">The Outer Worlds</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem; margin-left: 10px">
-        <img
-          height="150px"
-          src="https://images-2.gog-statics.com/85b273bb3b904435516921639042b762344e210b4c9dabb845d6532a4c7381fc_product_tile_304_2x.webp"
-          class="card-img-top"
-          alt="https://images-2.gog-statics.com/85b273bb3b904435516921639042b762344e210b4c9dabb845d6532a4c7381fc_product_tile_304_2x.webp"
-        />
-        <div class="card-body">
-          <p class="card-text">
-            Stubbs the Zombie in Rebel Without <br />
-            a Pluse
-          </p>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="margin-left: 10px">
+            <img
+              id="card-3"
+              src="https://images-2.gog-statics.com/85b273bb3b904435516921639042b762344e210b4c9dabb845d6532a4c7381fc_product_tile_304_2x.webp"
+              class="card-img-top"
+              alt="https://images-2.gog-statics.com/85b273bb3b904435516921639042b762344e210b4c9dabb845d6532a4c7381fc_product_tile_304_2x.webp"
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Stubbs the Zombie in Rebel Without a Pluse
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="card" style="width: 18rem; margin-left: 10px">
-        <img
-          height="150px"
-          src="https://images-2.gog-statics.com/ce7c4b9efdb1bf816ca9e4d5615f7035cf2aa43d1a52d914373ef12205d9ebef_product_tile_304_2x.webp"
-          class="card-img-top"
-          alt="https://images-2.gog-statics.com/ce7c4b9efdb1bf816ca9e4d5615f7035cf2aa43d1a52d914373ef12205d9ebef_product_tile_304_2x.webp"
-        />
-        <div class="card-body">
-          <p class="card-text">HuniePop 2:Double Date</p>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+          <div class="card" style="margin-left: 10px">
+            <img
+              id="card-4"
+              src="https://images-2.gog-statics.com/ce7c4b9efdb1bf816ca9e4d5615f7035cf2aa43d1a52d914373ef12205d9ebef_product_tile_304_2x.webp"
+              class="card-img-top"
+              alt="https://images-2.gog-statics.com/ce7c4b9efdb1bf816ca9e4d5615f7035cf2aa43d1a52d914373ef12205d9ebef_product_tile_304_2x.webp"
+            />
+            <div class="card-body">
+              <p class="card-text">HuniePop 2:Double Date</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -205,7 +231,7 @@
     </div>
     <hr style="margin-top: -10px" />
     <!-- FIRST CAROUSEL -->
-    <div class="container">
+    <div class="container first-carousel">
       <div class="text-inline">
         <i class="fas fa-percentage"></i>
         <p class="top-text-section">Now on Sale</p>
@@ -1321,7 +1347,7 @@
     </div>
     <!-- END OF FIRST CAROUSEL -->
     <!-- SECOND CAROUSEL -->
-    <div class="container">
+    <div class="container first-carousel">
       <div class="text-inline">
         <i class="fas fa-star"></i>
         <p class="top-text-section">What's good?</p>
@@ -2444,7 +2470,7 @@
     </div>
     <!-- END OF SECOND CAROUSEL -->
     <!-- THIRD CAROUSEL -->
-    <div class="container">
+    <div class="container first-carousel">
       <div class="text-inline">
         <i class="fas fa-compass"></i>
         <p class="top-text-section">Raccomanded for you</p>
@@ -3324,7 +3350,7 @@
     </div>
     <div style="margin-bottom: 7vh" class="container">
       <div class="row">
-        <div class="container-fluid col-md-7">
+        <div class="container-fluid col-sm-12 col-md-12 col-lg-7">
           <div class="text-inline">
             <i class="fas fa-compass"></i>
             <p class="top-text-section">Raccomanded for you</p>
@@ -3413,7 +3439,7 @@
           <div class="row">
             <div class="col-md-12">
               <img
-                class="img-featured"
+                class="img-featured-section"
                 style="width: 100%"
                 src="https://images-3.gog-statics.com/dc86fe8bc312beeab687bfc9ec41ec131fbfd7155c8a085e418957e7ac26ace2_curated_collection_huge_tile.jpg"
                 alt=""
@@ -3421,19 +3447,19 @@
             </div>
             <div class="col-md-6">
               <img
-                class="img-featured"
+                class="img-featured-section"
                 style="margin-top: 2px; width: 235px"
                 src="https://cdn.discordapp.com/attachments/789230399283920926/814896533249851432/unknown.png"
                 alt=""
               />
               <img
-                class="img-featured"
+                class="img-featured-section"
                 style="margin-top: 2px; width: 235px"
                 src="https://cdn.discordapp.com/attachments/789230399283920926/814896669007151114/unknown.png"
                 alt=""
               />
               <img
-                class="img-featured"
+                class="img-featured-section"
                 style="margin-top: 2px; width: 235px"
                 src="https://cdn.discordapp.com/attachments/789230399283920926/814896725252374579/unknown.png"
                 alt=""
@@ -3441,13 +3467,13 @@
             </div>
             <div class="col-md-6">
               <img
-                class="img-featured"
+                class="img-featured-section"
                 style="margin-top: 2px; width: 214px; height: 344px"
                 src="https://cdn.discordapp.com/attachments/789230399283920926/814896855992238140/unknown.png"
                 alt=""
               />
               <img
-                class="img-featured"
+                class="img-featured-section"
                 style="margin-top: 2px; width: 214px; height: 170px"
                 src="https://cdn.discordapp.com/attachments/789230399283920926/814896787806617660/unknown.png"
                 alt=""

@@ -1,3 +1,6 @@
+* {
+  font-family: "Lato", sans-serif;
+}
 .bg {
   height: 6px;
   width: 100%;
@@ -40,6 +43,38 @@ i {
 .container i {
   color: rgb(24, 23, 23);
 }
+
+.games .card-text {
+  height: 60px;
+}
+
+.games .card-img-top {
+  height: 150px;
+}
+.img-featured {
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 990px) {
+  .navbar {
+    padding: 0;
+    margin: 0;
+  }
+  #last-buttons {
+    padding-left: 25px;
+  }
+  .navbar-collapse {
+    margin-top: 9px;
+    background-color: rgba(26, 26, 26, 0.9);
+    width: 100vw !important;
+  }
+  .first-carousel {
+    display: none !important;
+  }
+  .img-featured-section {
+    display: none !important;
+  }
+}
 /* carousel */
 .carousel-box {
   margin: 0;
@@ -50,21 +85,64 @@ i {
 }
 .glide__slide img {
   width: 100%;
-  height: 500px;
-  width: 635px;
+  height: 400px;
+  width: 500px;
+}
+.glide__slide img:hover {
+  width: 100%;
+  height: 400px;
+  width: 500px;
+  transform: scale(1.01);
 }
 .glide__slide {
-  filter: blur(2px);
   opacity: 0.5;
-  transition: 0.3s linear;
+  transition: 0.25s ease;
+}
+.glide__slide:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
 }
 .glide__slide--active {
   z-index: 3;
-  opacity: 1;
+  transition: 0.25s ease;
   filter: none;
-  transform: scale(1);
+  opacity: 1;
+  transform: scale(1.05);
 }
-@media (max-width: 320px) {
+@media (max-width: 1464px) {
+  .glide__slide img {
+    width: 100%;
+    height: 350px;
+    width: 400px;
+  }
+}
+@media (max-width: 1170px) {
+  .glide__slide img {
+    width: 100%;
+    height: 250px;
+    width: 350px;
+  }
+}
+@media (max-width: 876px) {
+  .glide__slide img {
+    width: 100%;
+    height: 250px;
+    width: 280px;
+  }
+}
+@media (max-width: 807px) {
+  .glide__slide img {
+    width: 100%;
+    height: 150px;
+    width: 200px;
+  }
+}
+@media (max-width: 588px) {
+  .glide__slide img {
+    width: 100%;
+    height: 80px;
+    width: 140px;
+  }
 }
 /* end of carousel */
 .games {
